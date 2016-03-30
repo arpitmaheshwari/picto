@@ -1,0 +1,21 @@
+.nav{
+  @extend .navbar;
+  @extend .navbar-default;
+
+  border-radius: 0;
+
+  .navbar-brand{
+    color: $white;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.nav-actions{
+  @extend .navbar;
+  @extend .navbar-nav;
+  @extend .pull-right;
+
+  list-style: none;
+  padding: 10px;
+}

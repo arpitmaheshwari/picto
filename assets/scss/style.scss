@@ -1,18 +1,18 @@
-// Loading libraries
-// Collectioin of mixins
-@import "libs/bourbon/_bourbon",
-
-// Loading mixins
-// "base/mixins/"
+@import
 
 // Loading base/generic classes
 "base/_palette",
 "base/_variables",
 "base/_web-fonts",
 "base/_images",
+
+// Loading libraries
+"base/_custom-bootstrap",
+"libs/_bootstrap",
+
+"base/_typography",
 "base/_reuse",
 "base/_root",
-"base/_typography",
 
 // First loading error & loading template classes
 "templates/_loading",
@@ -25,7 +25,7 @@
 "elements/_input-fields",
 
 // Loading components
-"components/_search-bar",
+"components/_containers",
 "components/_nav",
 "components/_menu",
 "components/_sidebar",

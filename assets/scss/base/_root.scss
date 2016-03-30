@@ -1,5 +1,9 @@
 html{
 }
 body{
-	
+  font-size: $base-font-size;
+  color:  $base-color;
+  font-family: #{$base-font-family};
+  line-height: 1.4;
+  background: url(' #{$body-bg} ') repeat-x;
 }
