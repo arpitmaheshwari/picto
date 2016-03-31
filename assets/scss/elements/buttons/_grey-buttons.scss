@@ -1,0 +1,6 @@
+.btn-grey {
+  @extend .btn;
+  @extend .btn-base;
+
+  background-color: $grey;
+}

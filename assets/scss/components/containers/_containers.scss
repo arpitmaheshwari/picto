@@ -1,0 +1,43 @@
+.wrapper{
+  @extend .container;
+
+  background-color: #F4F5F7;
+  box-shadow: 1px 3px 12px #97A3BB;
+  margin-top: 20px;
+  padding: 0;
+}
+
+main.row{
+  padding: 10px 10px 15px;
+}
+
+#settings-container{
+  @extend .col-md-6;
+
+  background: $white;
+  height: 512px;
+  padding: 32px 0 0 10px;
+  position: relative;
+}
+
+#general-settings{
+  @extend .col-md-6;
+
+  background: $white;
+  border-right: 1px solid #c6d6d9;
+}
+
+#advance-settings{
+  @extend .col-md-6;
+
+  background: $white;
+  min-height: 480px;
+}
+
+.action-items{
+  @extend .text-right;
+
+  position: absolute;
+  bottom: 13px;
+  right: 10px;
+}

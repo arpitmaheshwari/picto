@@ -1,0 +1,17 @@
+.radio-button-container{
+  input[type="radio"]{
+    margin: 10px 10px 10px 2px;
+    line-height: normal;
+    display: inline-block;
+    padding: 0;
+    border: 1px solid #d2dee2;
+    background-color: $white;
+    vertical-align: middle;
+    color: #485456;
+  }
+
+  label{
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+}

@@ -21,7 +21,98 @@
                 </ul>
             </nav>
         </header>
+        <main class="row">
+            <section class="col-md-6">
+                <figure class="poster-cell">
+                    <img src="assets/images/content.png" alt="Poster">
+                </figure>
+            </section>
+            <section id="settings-container">
+                <div class="row">
+                    <section id="general-settings">
+                        <h3>General</h3>
+                        <dl class="distribution-list">
+                            <dt>Font Type</dt>
+                            <dd>
+                                <select class="plain-bordered-dropdown">
+                                    <option value="top">Arial</option>
+                                    <option value="bottom">Georgia</option>
+                                    <option value="left">Lato</option>
+                                </select>
+                            </dd>
+                            <dt>Font Size</dt>
+                            <dd>
+                                <select id="title_position" class="plain-bordered-dropdown">
+                                    <option value="top">12pt</option>
+                                    <option value="bottom">14pt</option>
+                                    <option value="bottom">16pt</option>
+                                    <option value="bottom">18pt</option>
+                                    <option value="bottom">20pt</option>
+                                </select>
+                            </dd>
+                            <hr class="custom-separator" />
+                            <dt>Font Style</dt>
+                            <dd>
+                                <select class="plain-bordered-dropdown">
+                                    <option value="top">Bold</option>
+                                    <option value="bottom">Italic</option>
+                                    <option value="left">Underline</option>
+                                </select>
+                            </dd>
+                            <dt>Text Alignment</dt>
+                            <dd>
+                                <select class="plain-bordered-dropdown">
+                                    <option value="top">Left</option>
+                                    <option value="bottom">Center</option>
+                                    <option value="left">Right</option>
+                                </select>
+                            </dd>
+                        </dl>
+                        <h3>Color</h3>
+                            <div class="radio-button-container">
+                                <input type="radio" name="color-choice" id="color-choice">
+                                <label for="color-choice">Set Color to All</label>
+                            </div>
+                            <div class="radio-button-container">
+                                <input type="radio" name="color-choice" id="color-setting" checked="true">
+                                <label for="color-setting">Individual Color Setting</label>
+                            </div>
+                            <dl class="distribution-list">
+                                <dt>Title Color</dt>
+                                <dd>
+                                    <select class="plain-bordered-dropdown">
+                                        <option value="top">Black</option>
+                                        <option value="bottom">White</option>
+                                        <option value="left">Grey</option>
+                                    </select>
+                                </dd>
+                                <dt>Text Color</dt>
+                                <dd>
+                                    <select class="plain-bordered-dropdown">
+                                        <option value="top">Magenta</option>
+                                        <option value="bottom">Lime</option>
+                                        <option value="left">Yellow</option>
+                                    </select>
+                                </dd>
+                            </dl>
+                    </section>
+                    <section id="advance-settings">
+                        <h3>Advanced</h3>
+
+                        <label for="image-width">Image Width</label>
+                        <input type="text" id="image-width" class="plain-bordered-input" />
+
+                        <label for="image-height">Image Height</label>
+                        <input type="text" id="image-height" class="plain-bordered-input" />
+                    </section>
+                </div>
+
+                <section class="action-items">
+                    <button class="btn-grey">CANCEL</button>
+                    <button class="btn-darkteal">SAVE</button>
+                </section>
+            </section>
+        </main>
     </section>
 </body>
-
 </html>

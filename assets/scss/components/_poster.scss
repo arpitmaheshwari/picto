@@ -1,0 +1,10 @@
+.poster-cell{
+  background: $white;
+  display: table-cell;
+  min-height: 500px;
+  vertical-align: middle;
+
+  img{
+    width: 100%;
+  }
+}

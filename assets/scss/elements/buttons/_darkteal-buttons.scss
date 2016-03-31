@@ -1,0 +1,6 @@
+.btn-darkteal {
+  @extend .btn;
+  @extend .btn-base;
+
+  background-color: $dark-teal;
+}
