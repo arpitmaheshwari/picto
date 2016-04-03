@@ -11,6 +11,6 @@
 }
 
 .table-cell-halfwidth{
-  display: table-cell;
+  @extend .table-cell;
   width: 50%;
 }

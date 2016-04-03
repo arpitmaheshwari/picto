@@ -1,12 +1,17 @@
+//Importing all the required scss files
 @import
 
 // Loading base/generic classes
 "base/_palette",
 "base/_variables",
-"base/_web-fonts",
+//"base/_web-fonts",
 "base/_images",
 
+// Loading helpers
+"helpers/mixins/_vendor-prefix",
+
 // Loading libraries
+// Normalize is bundled with bootstrap
 "base/_custom-bootstrap",
 "libs/_bootstrap",
 
@@ -15,36 +20,41 @@
 "base/_root",
 
 // First loading error & loading template classes
-"templates/_loading",
-"templates/_error",
+//"templates/_loading",
+//"templates/_error",
 
 //Loading all UI elements
 "elements/buttons/_button",
 "elements/buttons/_darkteal-buttons",
 "elements/buttons/_grey-buttons",
 
-"elements/_icons",
+//"elements/_icons",
 "elements/_title",
 "elements/_label",
 "elements/_input-fields",
-"elements/dropdown/_plain-bordered-dropdown.scss",
+"elements/_plain-bordered-dropdown",
 "elements/_seperator",
+//"elements/links/_block-level-links",
+//"elements/links/_inline-links",
+//"elements/links/_links-button-styled",
 
 // Loading components
 "components/containers/_containers",
-"components/_grids",
+"components/containers/_radio-button-container",
+"components/_grid",
 "components/_nav",
 "components/_poster",
 "components/lists/_distribution-list",
-"components/containers/_radio-button-container",
+//"components/_search-bar",
+//"components/_sidebar",
 
 // Loading templates specific classes
 //"templates/_alert-msg",
 //"templates/_forms",
 
 // Loading page specific classes
-//"pages/_404.scss",
-"pages/_home-page.scss"
+//"pages/_404",
+"pages/_home-page"
 
-// Closing import statement
+// Closing common import statement
 ;

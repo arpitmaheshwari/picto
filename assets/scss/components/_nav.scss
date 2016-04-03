@@ -1,3 +1,5 @@
+//FIle to save CSS for page level nav bar
+
 .nav{
   @extend .navbar;
   @extend .navbar-default;
@@ -11,13 +13,14 @@
     text-transform:uppercase;
     font-weight:600;
   }
+
+  .nav-actions{
+    @extend .navbar;
+    @extend .navbar-nav;
+    @extend .pull-right;
+
+    list-style: none;
+    padding: 12px 13px;
+  }
 }
 
-.nav-actions{
-  @extend .navbar;
-  @extend .navbar-nav;
-  @extend .pull-right;
-
-  list-style: none;
-  padding: 12px 13px;
-}

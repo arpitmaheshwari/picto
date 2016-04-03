@@ -1,5 +1,6 @@
+//File to save CSS for radio buttons, label and supporting container
 .radio-button-container{
-  padding-top: 13px;
+  padding-top: 10px;
 
   input[type="radio"]{
     margin: 10px 10px 2px 2px;
@@ -15,5 +16,6 @@
   label{
     display: inline-block;
     margin-bottom: 5px;
+    vertical-align: sub;
   }
 }

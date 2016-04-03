@@ -1,11 +1,14 @@
+//FIle to write generic CSS for buttons
+
 .btn-base{
+  @include vendor-prefix(border-radius,3px);
+
   color: $white;
   padding: 5px 10px;
-  border: 1px solid transparent;
+  border: 1px solid $transparent;
   font-size: 12px;
   vertical-align: middle;
   text-transform: uppercase;
   letter-spacing: 0.8px;
   line-height: 1.4;
-  border-radius: 3px;
 }

@@ -1,9 +1,10 @@
+//File for top level selectors
+
 html{
 }
 body{
-  font-size: $base-font-size;
+  font: $base-font-size#{ $base-font-family};
   color:  $base-color;
-  font-family: #{$base-font-family};
   line-height: 1.4;
   background: url(' #{$body-bg} ') repeat-x;
 }
