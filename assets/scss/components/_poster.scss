@@ -1,7 +1,6 @@
 .poster-cell{
-  background: $white;
-  display: table-cell;
-  min-height: 500px;
+  @extend .table-cell;
+  //height: 580px;
   vertical-align: middle;
 
   img{

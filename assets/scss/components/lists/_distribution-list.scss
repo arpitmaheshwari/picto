@@ -2,10 +2,11 @@ dl.distribution-list{
   @extend .row;
 
   dt{
-    @extend .col-md-6;
+    @extend .col-md-7;
 
     font-weight: normal;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 12px;
 
     &:last-child{
       margin-bottom: 10px;
@@ -13,9 +14,9 @@ dl.distribution-list{
   }
 
   dd{
-    @extend .col-md-6;
+    @extend .col-md-5;
 
-    margin-top: 10px;
+    margin-top: 1px;
 
     &:last-child{
       margin-bottom: 10px;

@@ -1,0 +1,19 @@
+#general-setting-items{
+  @extend .distribution-list;
+
+  margin-top: 13px;
+  margin-bottom: 23px;
+}
+
+#color-setting-items{
+  @extend .distribution-list;
+
+  margin-top: 15px;
+}
+
+#image-setting-items{
+  margin-top: 5px;
+  label{
+    margin-top: 11px;
+  }
+}

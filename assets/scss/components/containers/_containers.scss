@@ -7,37 +7,59 @@
   padding: 0;
 }
 
-main.row{
-  padding: 10px 10px 15px;
+#settings-grid{
+  @extend .css-table;
+  padding: 0 13px 10px 10px;
+  height: 580px;
+}
+
+#poster-container{
+  @extend .table-cell;
+
+  background: $white;
+  vertical-align: middle;
+  width: 45%;
 }
 
 #settings-container{
-  @extend .col-md-6;
+  @extend .table-cell;
 
-  background: $white;
-  height: 512px;
+  height: 510px;
   padding: 32px 0 0 10px;
   position: relative;
+  width: 55%;
 }
 
 #general-settings{
-  @extend .col-md-6;
+  @extend .table-cell-halfwidth;
 
   background: $white;
   border-right: 1px solid #c6d6d9;
+  height: 525px;
+  padding: 12px 15px 0 18px;
 }
 
 #advance-settings{
-  @extend .col-md-6;
+  @extend .table-cell-halfwidth;
 
   background: $white;
-  min-height: 480px;
+  height: 525px;
+  padding: 6px 15px 0;
 }
 
 .action-items{
   @extend .text-right;
 
   position: absolute;
-  bottom: 13px;
-  right: 10px;
+  bottom: 20px;
+  right: 15px;
+}
+
+.settings-tab{
+  background: $white;
+  color: #809a9f;
+  padding: 6px 8px 2px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }

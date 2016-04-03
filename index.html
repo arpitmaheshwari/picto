@@ -21,17 +21,17 @@
                 </ul>
             </nav>
         </header>
-        <main class="row">
-            <section class="col-md-6">
+        <main id="settings-grid">
+            <div class="table-row">
+                <section id="poster-container">
                 <figure class="poster-cell">
                     <img src="assets/images/content.png" alt="Poster">
                 </figure>
             </section>
-            <section id="settings-container">
-                <div class="row">
+                <section id="settings-container">
                     <section id="general-settings">
-                        <h3>General</h3>
-                        <dl class="distribution-list">
+                        <h6 class="custom-title">General</h6>
+                        <dl id="general-setting-items">
                             <dt>Font Type</dt>
                             <dd>
                                 <select class="plain-bordered-dropdown">
@@ -68,7 +68,7 @@
                                 </select>
                             </dd>
                         </dl>
-                        <h3>Color</h3>
+                        <h6 class="custom-title">Color</h6>
                             <div class="radio-button-container">
                                 <input type="radio" name="color-choice" id="color-choice">
                                 <label for="color-choice">Set Color to All</label>
@@ -77,7 +77,7 @@
                                 <input type="radio" name="color-choice" id="color-setting" checked="true">
                                 <label for="color-setting">Individual Color Setting</label>
                             </div>
-                            <dl class="distribution-list">
+                            <dl id="color-setting-items">
                                 <dt>Title Color</dt>
                                 <dd>
                                     <select class="plain-bordered-dropdown">
@@ -97,21 +97,27 @@
                             </dl>
                     </section>
                     <section id="advance-settings">
-                        <h3>Advanced</h3>
+                        <h6 class="custom-title">Advanced</h6>
 
-                        <label for="image-width">Image Width</label>
-                        <input type="text" id="image-width" class="plain-bordered-input" />
-
-                        <label for="image-height">Image Height</label>
-                        <input type="text" id="image-height" class="plain-bordered-input" />
+                        <fieldset id="image-setting-items">
+                            <label for="image-width">Image Width</label>
+                            <input type="text" id="image-width" class="plain-bordered-input" />
+                            <label for="image-height">Image Height</label>
+                            <input type="text" id="image-height" class="plain-bordered-input" />
+                        </fieldset>
                     </section>
-                </div>
 
-                <section class="action-items">
-                    <button class="btn-grey">CANCEL</button>
-                    <button class="btn-darkteal">SAVE</button>
+                    <section class="action-items">
+                        <button class="btn-grey">CANCEL</button>
+                        <button class="btn-darkteal">SAVE</button>
+                    </section>
+
+                    <aside class="settings-tab">
+                        <img src="assets/images/icon-setting.png" alt="" />
+                        <label class="tab-title">Settings</label>
+                    </aside>
                 </section>
-            </section>
+            </div>
         </main>
     </section>
 </body>
